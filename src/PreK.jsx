@@ -1,5 +1,6 @@
 import PreKDtap from "./PreKDtap"
 import PreKPolio from "./PreKPolio"
+import PreKHepA from "./PreKHepA"
 
 export default function PreK(){
     return (
@@ -18,7 +19,7 @@ export default function PreK(){
 
         <h2>Varicella</h2>
 
-        <h2>Hepatitis A (HepA) </h2>
+            <PreKHepA />
 
     </div>
     )
