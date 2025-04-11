@@ -1,15 +1,25 @@
+import PreKRanges from "./PreKRanges"
+
 export default function PreK(){
     return (
     <div>
-        <h2>Childcare and Pre-K Facilities</h2>
-        <p>Diphtheria / Tetanus / Pertussis (DTaP)</p>
-        <p>Polio</p>
-        <p>Hepatitis B (HepB)</p>
-        <p>Haemophilus influenzae type b (Hib) </p>
-        <p>Pneumococcal conjugate vaccine (PCV) </p>
-        <p>Measles, Mumps and Rubella (MMR) </p>
-        <p>Varicella</p>
-        <p>Hepatitis A (HepA) </p>
+        <h1>Childcare and Pre-K Facilities</h1>
+        <h2>Diphtheria / Tetanus / Pertussis (DTaP)</h2>
+            <PreKRanges />
+        <h2>Polio</h2>
+            <PreKRanges />
+        <h2>Hepatitis B (HepB)</h2>
+            <PreKRanges />
+        <h2>Haemophilus influenzae type b (Hib) </h2>
+            <PreKRanges />
+        <h2>Pneumococcal conjugate vaccine (PCV) </h2>
+            <PreKRanges />
+        <h2>Measles, Mumps and Rubella (MMR) </h2>
+            <PreKRanges />
+        <h2>Varicella</h2>
+            <PreKRanges />
+        <h2>Hepatitis A (HepA) </h2>
+            <PreKRanges />
     </div>
     )
 }
