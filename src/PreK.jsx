@@ -1,11 +1,12 @@
 import PreKDtap from "./PreKDtap"
+import PreKPolio from "./PreKPolio"
 
 export default function PreK(){
     return (
     <div>
         <h1>Childcare and Pre-K Facilities</h1>
             <PreKDtap />
-        <h2>Polio</h2>
+            <PreKPolio />
 
         <h2>Hepatitis B (HepB)</h2>
 
