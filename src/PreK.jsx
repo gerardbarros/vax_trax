@@ -1,6 +1,8 @@
 import PreKDtap from "./PreKDtap"
 import PreKPolio from "./PreKPolio"
 import PreKHepA from "./PreKHepA"
+import PreKHepB from "./PreKHepB"
+import PreKHib from "./PreKHib"
 
 export default function PreK(){
     return (
@@ -8,9 +10,7 @@ export default function PreK(){
         <h1>Childcare and Pre-K Facilities</h1>
             <PreKDtap />
             <PreKPolio />
-
-        <h2>Hepatitis B (HepB)</h2>
-
+            <PreKHepB />
         <h2>Haemophilus influenzae type b (Hib) </h2>
 
         <h2>Pneumococcal conjugate vaccine (PCV) </h2>
