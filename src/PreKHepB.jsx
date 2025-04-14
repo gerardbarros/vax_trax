@@ -1,7 +1,7 @@
 export default function PreKHepB(){
     return (
         <div>
-            <h2>Hep B</h2>
+            <h2>Hepatitis B</h2>
                 <p>0-2 Months: N/A</p>
                 <p>By 3 Months: 1 dose</p>
                 <p>By 5 Months: 2 doses</p>

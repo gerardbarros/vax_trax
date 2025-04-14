@@ -3,6 +3,9 @@ import PreKPolio from "./PreKPolio"
 import PreKHepA from "./PreKHepA"
 import PreKHepB from "./PreKHepB"
 import PreKHib from "./PreKHib"
+import PreKPCV from "./PreKPCV"
+import PreKMMR from "./PreKMMR"
+import PreKVaricella from "./PreKVaricella"
 
 export default function PreK(){
     return (
@@ -11,16 +14,11 @@ export default function PreK(){
             <PreKDtap />
             <PreKPolio />
             <PreKHepB />
-        <h2>Haemophilus influenzae type b (Hib) </h2>
-
-        <h2>Pneumococcal conjugate vaccine (PCV) </h2>
-
-        <h2>Measles, Mumps and Rubella (MMR) </h2>
-
-        <h2>Varicella</h2>
-
+            <PreKHib />
+            <PreKPCV />
+            <PreKMMR />
+            <PreKVaricella />
             <PreKHepA />
-
     </div>
     )
 }
