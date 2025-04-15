@@ -1,11 +1,13 @@
 import './App.css'
 import PreK from './PreK'
+import KThroughTwelve from './KThroughTwelve'
 
 function App() {
   return (
     <>
       <h1>Vaccine Tracker</h1>
       <PreK />
+      <KThroughTwelve />
 
       <footer>
         <p className="read-the-docs">
