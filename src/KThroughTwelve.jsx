@@ -12,7 +12,6 @@ export default function KThroughTwelve(){
                 <SeventhGrade />
             <h1>8th - 12th Grade</h1>
                 <EigthToTwelfth />
-
         </div>
     )
     //K - 6

@@ -10,7 +10,7 @@ import PreKVaricella from "./PreKVaricella"
 export default function PreK(){
     return (
     <div>
-        <h1>Childcare and Pre-K Facilities</h1>
+        <h1 className="Pre-K">Childcare and Pre-K Facilities</h1>
             <PreKDtap />
             <PreKPolio />
             <PreKHepB />

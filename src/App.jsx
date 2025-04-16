@@ -1,12 +1,21 @@
 import './App.css'
 import PreK from './PreK'
 import KThroughTwelve from './KThroughTwelve'
+import { useState } from 'react'
 
 function App() {
+  const [view, setView] = useState(true)
+  const changeView = () => {
+    setView(!view)
+  }
+
   return (
     <>
       <h1>Vaccine Tracker</h1>
+      {/* Add function  that is able to expand/collapse Pre-K or K-12 sections. Use state needed to show/hide; also needed for the vax records */}
+      <button onClick={changeView}>{view ? "Show Pre-K" : "Hide Pre-K"}</button>
       <PreK />
+      <button onClick={changeView}>{view ? "Show K-12" : "Hide K-12"}</button>
       <KThroughTwelve />
 
       <footer>
