@@ -22,14 +22,8 @@
   background-color: red;
 }
 
-.hide-prek-vaccines{
-  background-color: red;
-  display: none;
-}
-
-.show-prek-vaccines{
+.prek-vaccines{
   color: red;
-  border: 3px solid red;
 }
 
 @keyframes logo-spin {

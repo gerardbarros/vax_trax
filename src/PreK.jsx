@@ -11,7 +11,7 @@ import './App.css'
 
 export default function PreK(){
     return (
-    <div className="show-prek-vaccines">
+    <div className="prek-vaccines">
         <h1>Childcare and Pre-K Facilities</h1>
             <PreKDtap />
             <PreKPolio />
