@@ -1,24 +1,29 @@
 import './App.css'
 import PreK from './PreK'
 import KThroughTwelve from './KThroughTwelve'
+import ToggleContent from './ToggleContent'
 import { useState } from 'react'
 
 function App() {
   const [viewPreK, setViewPreK] = useState(true)
-  const changeViewPreK = () => {
-    setViewPreK(!viewPreK)
-    // if viewPreK is false return Pre-K as hidden, if true, show the values
-
-  }
+  // const changeViewPreK = () => {
+  //   setViewPreK(!viewPreK)
+  //   // if viewPreK is false return Pre-K as hidden, if true, show the values
+  //   // .hide-prek-vaccines || .show-prek-vaccines depending on the button click
+  // }
+  
+  
 
   return (
     <>
       <h1>Vaccine Tracker</h1>
       {/* Add function  that is able to expand/collapse Pre-K or K-12 sections. Use state needed to show/hide; also needed for the vax records */}
-      <button onClick={changeViewPreK}>{viewPreK ? "Show Pre-K " : "Hide Pre-K"}</button>
-      <PreK />
+      {/* <button onClick={changeViewPreK}>{viewPreK ? "Show Pre-K " : "Hide Pre-K"}</button> */}
+      <ToggleContent />
+      {/* <PreK /> */}
       {/* <button onClick={changeView}>{view ? "Show K-12" : "Hide K-12"}</button> */}
       <KThroughTwelve />
+      
 
       <footer>
         <p className="read-the-docs">
