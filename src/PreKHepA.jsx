@@ -1,7 +1,7 @@
 export default function PreKHepA() {
     return (
         <div>
-            <h2>Hep A</h2>
+            <h2>Hepatitis A</h2>
                 <p>0-2 Months: N/A</p>
                 <p>By 3 Months: N/A</p>
                 <p>By 5 Months: N/A</p>
