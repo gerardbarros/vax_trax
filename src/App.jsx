@@ -1,5 +1,4 @@
 import './App.css'
-import KThroughTwelve from './KThroughTwelve'
 import TogglePreK from './TogglePreK'
 import ToggleKThroughTwelve from './ToggleKThroughTwelve'
 
@@ -9,6 +8,7 @@ function App() {
     <>
       <h1>Vaccine Tracker</h1>
       <TogglePreK />
+      
       <ToggleKThroughTwelve />
       
 

@@ -18,12 +18,8 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.prekButton {
-  background-color: red;
-}
-
 .prek-vaccines{
-  color: red;
+  
 }
 
 @keyframes logo-spin {
