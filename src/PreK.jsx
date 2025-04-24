@@ -14,15 +14,29 @@ export default function PreK(){
     return (
     <div className="prek-vaccines">
         <h1>Childcare and Pre-K Facilities</h1>
-            <PreKDtap />
+            <PreKDtap /> 
             <VaccineCounter />
+            <hr/>
             <PreKPolio />
+            <VaccineCounter />
+            <hr/>
             <PreKHepB />
+            <VaccineCounter />
+            <hr/>
             <PreKHib />
+            <VaccineCounter />
+            <hr/>
             <PreKPCV />
+            <VaccineCounter />
+            <hr/>
             <PreKMMR />
+            <VaccineCounter />
+            <hr/>
             <PreKVaricella />
+            <VaccineCounter />
+            <hr/>
             <PreKHepA />
+            <VaccineCounter />
     </div>
     )
 }

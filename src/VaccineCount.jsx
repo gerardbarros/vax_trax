@@ -9,7 +9,7 @@ const VaccineCounter = () => {
         if (!isNaN(value) && value >= 0) {
         setCount(value)
         } else if (e.target.value === '') {
-        setCount(0) // Optional: Treat empty input as 0
+        setCount(0)
         }
     };
 
