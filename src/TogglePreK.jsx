@@ -12,7 +12,7 @@ export default function TogglePreK(){
     <div className="toggle-PreK">
       <button 
         onClick={togglePreK}
-        className="bg-blue-500 text-white px-4 py-2 rounded mb-4">
+        className="prek-button">
         {isVisible ? 'Hide' : 'Show'} Childcare and Pre-K Requirements
       </button>
 

@@ -11,7 +11,7 @@ export default function ToggleKThroughTwelve(){
     <div className="toggle-K12">
         <button 
         onClick={toggleKThroughTwelve}
-        className="bg-blue-500 text-white px-4 py-2 rounded mb-4">
+        className="ktwelve-button">
 
         {isVisible ? 'Hide' : 'Show'} K-12 Requirements
         </button>

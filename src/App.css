@@ -10,6 +10,18 @@
   padding: 2em;
 }
 
+.prek-button {
+  background-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ktwelve-button {
+  background-color: orange;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .disclaimer {
   color: #888;
 }
