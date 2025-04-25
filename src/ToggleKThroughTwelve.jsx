@@ -3,14 +3,14 @@ import KThroughTwelve from "./KThroughTwelve";
 
 export default function ToggleKThroughTwelve(){
     const [isVisible, setIsVisible] = useState(false);
-    const ToggleKThroughTwelve = () => {
-    setIsVisible(prev => !prev);
+    const toggleKThroughTwelve = () => {
+        setIsVisible(show => !show);
     };
 
     return (
     <div className="toggle-K12">
         <button 
-        onClick={ToggleKThroughTwelve}
+        onClick={toggleKThroughTwelve}
         className="bg-blue-500 text-white px-4 py-2 rounded mb-4">
 
         {isVisible ? 'Hide' : 'Show'} K-12 Requirements

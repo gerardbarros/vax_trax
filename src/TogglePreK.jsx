@@ -5,7 +5,7 @@ import PreK from "./PreK"
 export default function TogglePreK(){
     const [isVisible, setIsVisible] = useState(false);
     const togglePreK = () => {
-      setIsVisible(prev => !prev);
+      setIsVisible(show => !show);
     };
 
   return (
