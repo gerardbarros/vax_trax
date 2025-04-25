@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const VaccineCounter = () => {
+export default function VaccineCounter(){
     const [count, setCount] = useState(0)
     const reset = () => setCount(0)
 
@@ -35,5 +35,3 @@ const VaccineCounter = () => {
         </div>
     );
 };
-
-export default VaccineCounter;
