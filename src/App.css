@@ -11,15 +11,17 @@
 }
 
 .prek-button {
-  background-color: red;
+  background-color: #1e90ff;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .ktwelve-button {
-  background-color: orange;
+  background-color: #1e90ff;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .disclaimer {
