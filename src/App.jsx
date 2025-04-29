@@ -1,6 +1,7 @@
 import './App.css'
 import TogglePreK from './TogglePreK'
 import ToggleKThroughTwelve from './ToggleKThroughTwelve'
+import JumpToTop from './JumpToTop.jsx'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <h1>Vaccine Tracker</h1>
       <TogglePreK />
       <ToggleKThroughTwelve />
+      <JumpToTop />
       
 
       <footer>
