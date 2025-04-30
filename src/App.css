@@ -18,14 +18,14 @@
   align-items: center;
 }
 
-.ktosix-vaccines {
+/* .ktosix-vaccines {
   display: flex;
   gap: 20px;
   padding: 20px;  
   justify-content: center;
   align-items: center;
   
-}
+} */
 
 .prek-button {
   background-color: #1e90ff;
@@ -44,7 +44,10 @@
 .back-to-top{
   background-color: #dc143c;
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   text-align: left;
 }
 
