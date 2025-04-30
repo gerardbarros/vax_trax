@@ -2,7 +2,7 @@ import VaccineCounter from "./VaccineCount"
 
 export default function KtoSix(){
     return (
-        <div>
+        <div className="ktosix-vaccines">
             <h2>Diphtheria / Tetanus / Pertussis (DTaP / DTP / DT / Td / Tdap)</h2>
                 <p>4 - 5 doses. 4 doses is valid if 4th dose was received on or after 4th birthday.</p>
                 <VaccineCounter />

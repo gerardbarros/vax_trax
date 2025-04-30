@@ -10,6 +10,7 @@ function App() {
       <h1>Vaccine Tracker</h1>
       <TogglePreK />
       <ToggleKThroughTwelve />
+      
       <JumpToTop />
       
 
@@ -21,6 +22,7 @@ function App() {
           <br /> <strong>This site is not affiliated with Texas Department of State Health Services.</strong>
         </p>
       </footer>
+      
     </>
   )
 }
