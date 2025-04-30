@@ -12,20 +12,19 @@
 
 .prek-vaccines {
   display: flex;
-  gap: 20px;
-  padding: 20px;  
-  justify-content: center;
-  align-items: center;
+  /* gap: 20px; */
+  /* padding: 20px;   */
+  /* justify-content: center; */
+  align-items: right;
 }
 
-/* .ktosix-vaccines {
+.ktotwelve-vaccines {
   display: flex;
-  gap: 20px;
-  padding: 20px;  
-  justify-content: center;
-  align-items: center;
-  
-} */
+  /* gap: 20px; */
+  /* padding: 20px;   */
+  /* justify-content: center; */
+  align-items: right;
+}
 
 .prek-button {
   background-color: #1e90ff;

@@ -14,22 +14,19 @@ export default function VaccineCounter(){
     };
 
     return (
-        <div className="flex flex-col items-center p-4 rounded-2xl shadow-md bg-white max-w-sm mx-auto">
-        <h2 className="text-xl font-semibold mb-3">Vaccine Count</h2>
+        <div>
+        <h2>Vaccine Count</h2>
 
         <input
             type="number"
             min="0"
             value={count}
             onChange={handleInputChange}
-            className="w-24 text-center text-3xl font-bold text-blue-600 p-2 border border-gray-300 rounded mb-4"
+            
         />
 
 
-        <button
-            onClick={reset}
-            className="bg-gray-500 hover:bg-gray-600 text-white font-medium py-1 px-4 rounded-xl"
-        >
+        <button onClick={reset}>
             Reset
         </button>
         </div>

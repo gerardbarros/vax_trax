@@ -12,31 +12,47 @@ import './App.css'
 
 export default function PreK(){
     return (
-    <div className="prek-vaccines">
+    <div>
         <h1>Childcare and Pre-K Facilities</h1>
+        <div className="prek-vaccines">
             <PreKDtap /> 
             <VaccineCounter />
-            <hr/>
+        </div>
+        <hr/>
+        <div className="prek-vaccines">
             <PreKPolio />
             <VaccineCounter />
-            <hr/>
+        </div>
+        <hr/>
+        <div className="prek-vaccines">
             <PreKHepB />
             <VaccineCounter />
-            <hr/>
+        </div>
+        <hr/>
+        <div className="prek-vaccines">
             <PreKHib />
             <VaccineCounter />
-            <hr/>
+        </div>
+        <hr/>
+        <div className="prek-vaccines">
             <PreKPCV />
             <VaccineCounter />
-            <hr/>
+        </div>
+        <hr/>
+        <div className="prek-vaccines">
             <PreKMMR />
             <VaccineCounter />
-            <hr/>
+        </div>
+        <hr/>
+        <div className="prek-vaccines">
             <PreKVaricella />
             <VaccineCounter />
-            <hr/>
+        </div>
+        <hr/>
+        <div className="prek-vaccines">
             <PreKHepA />
             <VaccineCounter />
+        </div>
     </div>
     )
 }
