@@ -8,15 +8,13 @@ export default function KThroughTwelve(){
     return (
         <div>
             <h1>Kindergarten to Sixth Grade</h1>
-            <div className="ktotwelve-vaccines">
                 <KtoSix />
                 <VaccineCounter />
-            </div>    
             <hr />
             <h1>7th Grade</h1>
                 <SeventhGrade />
                 <VaccineCounter />
-                <hr />
+            <hr />
             <h1>8th - 12th Grade</h1>
                 <EigthToTwelfth />
                 <VaccineCounter />
