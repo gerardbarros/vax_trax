@@ -7,7 +7,7 @@ import JumpToTop from './JumpToTop.jsx'
 function App() {
   return (
     <>
-      <h1>Vaccine Tracker</h1>
+      <h1>Vaccine Tracker for Texas Schools</h1>
       <TogglePreK />
       <ToggleKThroughTwelve />
       

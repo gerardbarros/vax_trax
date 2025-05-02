@@ -3,13 +3,10 @@ import './App.css'
 
 export default function KtoSix(){
     return (
-        <div className="ktosix-vaccines">
+        <div>
             <h2>Diphtheria / Tetanus / Pertussis (DTaP / DTP / DT / Td / Tdap)</h2>
             <p>4 - 5 doses. 4 doses is valid if 4th dose was received on or after 4th birthday.</p>
-            <div className="ktotwelve-vaccines">
                 <VaccineCounter />
-            </div>
-                
                 <hr />
             <h2>Polio</h2>
                 <p>3 - 4 doses. 3 doses is valid if 4th dose was received on or after 4th birthday.</p>
