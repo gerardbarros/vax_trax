@@ -24,11 +24,8 @@ export default function ScrollToTopButton(){
     }
 
     return (
-        <button
-        onClick={scrollToTop}
-        className="back-to-top"
-        >
-        Back to top
+        <button onClick={scrollToTop} className="back-to-top">
+        ↑
         </button>
         );
     };
