@@ -31,7 +31,6 @@ export default function SeventhGrade(){
             <h2>Hepatitis A</h2>
                 <p>2 doses</p>
                 <VaccineCounter />
-                <hr />
         </div>
     )
 }
