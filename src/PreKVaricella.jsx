@@ -1,7 +1,7 @@
 export default function PreKVaricella(){
     return (
         <div>
-            <h2>Pneumococcal conjugate vaccine (PCV) </h2>
+            <h2>Varicella </h2>
                 <p>0-2 Months: N/A</p>
                 <p>By 3 Months: N/A</p>
                 <p>By 5 Months: N/A</p>
